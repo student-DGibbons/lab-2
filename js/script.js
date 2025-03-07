@@ -1,5 +1,8 @@
 // Getting the output element so that text content can be output
-const output = document.getElementById('output');
+const output1 = document.getElementById('output1');
+const output2 = document.getElementById('output2');
+const output3 = document.getElementById('output3');
+
 
 
 /* Constructor function for creating the product */
@@ -32,7 +35,7 @@ const car3 = new Car("Rally Speciale", "Mattel", 2021, "3+", "Hot Wheels", 179, 
 
 
 // Outputting text content using the describe function for each car
-output.textContent = car1.describe();
-output.textContent = car2.describe();
-output.textContent = car3.describe();
+output1.textContent = car1.describe();
+output2.textContent = car2.describe();
+output3.textContent = car3.describe();
 
