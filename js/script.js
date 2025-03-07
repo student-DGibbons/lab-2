@@ -13,7 +13,7 @@ function Car(title, company, year, ageRating, collectionNumber, website, color, 
     this.website = website;
     this.color = color;
     this.country = country;
-    this.model = model;
+    this.model = model; 
     this.material = material;
     this.speed = speed;
 
@@ -26,8 +26,8 @@ function Car(title, company, year, ageRating, collectionNumber, website, color, 
 
 
 /* Instantiating 3 instances of 3 different cars using the constructor function*/
-const car1 = new Car();
-const car2 = new Car();
+const car1 = new Car("Subaru WRX STI", "Mattel", 2021, "3+", "Hot Wheels", 68, "shop.mattel.com", "yellow", "Malaysia", "sedan", "plastic", 2);
+const car2 = new Car("Volvo XC40 Recharge", "Mattel", 2021, "3+", "Hot Wheels", 14, "shop.mattel.com", "blue", "Malaysia", "SUV", "plastic", 2);
 const car3 = new Car("Rally Speciale", "Mattel", 2021, "3+", "Hot Wheels", 179, "shop.mattel.com", "blue", "Malaysia", "racecar", "plastic", 2);
 
 
