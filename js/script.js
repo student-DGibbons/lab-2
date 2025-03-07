@@ -3,7 +3,7 @@ const output = document.getElementById('output');
 
 
 /* Constructor function for creating the product */
-function Car(title, company, year, ageRating, collectionNumber, website, color, country, model, material, speed, wheels){
+function Car(title, company, year, ageRating, brand, collectionNumber, website, color, country, model, material, speed){
     this.title = title;
     this.company = company;
     this.year = year;
