@@ -1,3 +1,5 @@
+// Created by Dylan Gibbons and Nishi Patel (Group 7)
+
 // Getting the output element so that text content can be output
 const output1 = document.getElementById('output1');
 const output2 = document.getElementById('output2');
